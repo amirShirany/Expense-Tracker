@@ -1,0 +1,140 @@
+/** @format */
+
+.App {
+  color: #0d1d2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  /* width: 100%; */
+  padding-top: 30px;
+  margin: 3rem;
+  font-family: montserrat;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  background-color: #fffffff7;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: 1px solid #5795cf;
+  width: 100%;
+}
+
+.resultSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expenseBox {
+  width: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  height: 3rem;
+}
+
+.expenseBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 60px;
+  width: 135px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.expenseBox span {
+  font-weight: bold;
+  color: rgba(92, 205, 35, 0.955);
+}
+
+.btn {
+  outline: none;
+  padding: 4px 8px;
+  color: #1d4ed8;
+  background-color: #bae6fd;
+  border: 1px solid #1d4ed8;
+
+  border-radius: 5px;
+}
+
+.primary {
+  color: #fff;
+  background-color: rgb(18, 151, 233);
+  border: none;
+  padding: 8px 10px;
+}
+
+.cancel {
+  color: #dc2626;
+  background-color: #fff;
+  border: 1px solid #dc2626;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 170px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* input [type='radio'] {
+	margin: 0 0 0 20px;
+} */
+
+.radioBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+}
+
+.radioBox label {
+  margin-left: 3px;
+  font-size: 14px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+  border-right: 4px solid green;
+}
+
+input.search {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  background-color: #e3f6ff;
+}
